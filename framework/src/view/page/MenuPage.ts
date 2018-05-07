@@ -24,10 +24,10 @@ class MenuPage extends AppPage {
     }
 
     private _menuUi: ui.page.MenuUI;
-    private _tabLobby: MenuLobbyUI;
-    private _tabFind: MenuFindUI;
-    private _tabScore: MenuScoreUI;
-    private _tabPerson: MenuPersonUI;
+    // private _tabLobby: MenuLobbyUI;
+    private _tabFind: MenuFindUI;//游戏
+    private _tabScore: MenuScoreUI;//战绩
+    private _tabPerson: MenuPersonUI;//个人
     private _tabs: Array<Laya.View>;
     private _partBg: Laya.Particle2D;
 
