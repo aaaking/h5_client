@@ -58,7 +58,7 @@ class MenuFindUI extends ui.components.menu.MenuFindUI {
         this._list.selectHandler = new Laya.Handler(this, this.goToPage)
         
         this._btnJoinMatch.top =  Math.ceil(i/2) * 180 +200
-        this._btnJoin.top = this._btnJoinMatch.top+this._btnJoinMatch.height + 20
+        this._btnJoin.top = this._btnJoinMatch.top+this._btnJoinMatch.height// + 20
         if (Native.instance.isNative)
             this._ani.removeSelf();
         else
