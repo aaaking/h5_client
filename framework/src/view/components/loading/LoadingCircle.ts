@@ -10,15 +10,6 @@ class LoadingCircle extends Laya.Component {
         return LoadingCircle._instance;
     }
 
-    private _c1: Laya.Image;
-    private _c2: Laya.Image;
-    private _c3: Laya.Image;
-    private _c4: Laya.Image;
-    private _c5: Laya.Image;
-    private _c6: Laya.Image;
-    private _c7: Laya.Image;
-    private _c8: Laya.Image;
-
     private _tweenTime: number = 0.6;
     private _isPlaying: boolean;
     private _timeCount: number;
